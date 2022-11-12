@@ -34,7 +34,7 @@ public class StatisticController {
         return this.statisticService.saveVisit(statisticDto);
     }
 
-    @GetMapping("statistics")
+    @GetMapping(value = "statistics", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<StatisticCount> getStatistics(){
         return this.statisticService.getStatisticCount();
     }
