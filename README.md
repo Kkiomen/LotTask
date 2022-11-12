@@ -1,5 +1,5 @@
 
-# Statistic App
+# Visit counter
 
 REST API służące do zliczania i raportowania wizyt użytkowników serwisu internetowego. 
 
